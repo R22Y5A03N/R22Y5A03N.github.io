@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ryan Maulana - Digital Portfolio</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syncopate:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+        <!-- Tambahkan AOS CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo" data-aos="fade-right" data-aos-duration="1000">Ryanmaulana</div>
+                <div class="nav-links" data-aos="fade-left" data-aos-duration="1000">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="section-title" data-aos="fade-down" data-aos-duration="1000">Welcome to My Portfolio</h1>
+                <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">Frontend Developer & UI/UX Designer</p>
+                <div class="typing-text" id="typed-text" data-aos="fade-up" data-aos-delay="400"></div>
+                <div class="hero-cta" data-aos="fade-up" data-aos-delay="600">
+                    <a href="#about" class="btn btn-primary">Lihat Selengkapnya</a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+            <div class="hero-shapes">
+                <div class="shape shape-1" data-aos="fade-left" data-aos-duration="1500"></div>
+                <div class="shape shape-2" data-aos="fade-right" data-aos-duration="1500"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="section-inner">
+                <h2 class="section-title" data-aos="fade-down">About Me</h2>
+                <div class="about-content">
+                    <img
+                        src="assets/img/gambar2.jpeg"
+                        alt="Profile"
+                        class="profile-img border-glow"
+                        data-aos="fade-right"
+                        data-aos-duration="1000"
+                    />
+                    <div data-aos="fade-left" data-aos-duration="1000">
+                        <h3>RyanMaulana</h3>
+                        <p>
+                            Halo! Saya Ach Ryan M, seorang full-stack developer dengan kemampuan dalam membangun solusi
+                            web yang efektif dan inovatif. Saya menguasai teknologi seperti HTML, CSS, JavaScript, PHP,
+                            dan memiliki pemahaman dasar mengenai framework Laravel. Dengan semangat belajar yang
+                            tinggi, saya terus memperdalam kemampuan saya dalam teknologi web dan siap menghadapi
+                            tantangan baru untuk memberikan solusi terbaik.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="section-inner">
+                <h2 class="section-title" data-aos="fade-down">My Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project Cards -->
+                    <div class="project-card border-glow" data-aos="fade-up" data-aos-delay="100">
+                        <img src="assets/img/image.png" alt="Project 1" class="project-img" />
+                        <div class="project-info">
+                            <h3>Web Percetakan</h3>
+                            <p>Web dengan sistem pemesanan percetakan online melalui web</p>
+                        </div>
+                    </div>
+                    <div class="project-card border-glow" data-aos="fade-up" data-aos-delay="200">
+                        <img src="assets/img/project2.png" alt="Project 2" class="project-img" />
+                        <div class="project-info">
+                            <h3>Web Online Shop</h3>
+                            <p>Web dengan penjualan berbagai macam produk</p>
+                        </div>
+                    </div>
+                    <div class="project-card border-glow" data-aos="fade-up" data-aos-delay="300">
+                        <img src="assets/img/porto3.png" alt="Project 3" class="project-img" />
+                        <div class="project-info">
+                            <h3>Web Innosphere</h3>
+                            <p>Web dengan sistem pembelajaran online</p>
+                        </div>
+                    </div>
+                    <div class="project-card border-glow" data-aos="fade-up" data-aos-delay="400">
+                        <img src="assets/img/porto4.png" alt="Project 4" class="project-img" />
+                        <div class="project-info">
+                            <h3>Web tiket bola</h3>
+                            <p>Pemesanan tiket bola melalui web</p>
+                        </div>
+                    </div>
+                    <div class="project-card border-glow" data-aos="fade-up" data-aos-delay="500">
+                        <img src="assets/img/kfc.png" alt="Project 5" class="project-img" />
+                        <div class="project-info">
+                            <h3>Cloning web kfc</h3>
+                            <p>Web pemesanan makanan cepat saji</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="section-inner">
+                <h2 class="section-title" data-aos="fade-down">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="fab fa-html5 skill-icon"></i>
+                        <h3 class="skill-name">HTML5</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                        <div class="skill-percentage">90%</div>
+                    </div>
+
+                    <!-- Repeat for other skills with increasing delays -->
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fab fa-css3-alt skill-icon"></i>
+                        <h3 class="skill-name">CSS3</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                        <div class="skill-percentage">85%</div>
+                    </div>
+
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fab fa-css3-alt skill-icon"></i>
+                        <h3 class="skill-name">JavaScript</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                        <div class="skill-percentage">70%</div>
+                    </div>
+
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fab fa-css3-alt skill-icon"></i>
+                        <h3 class="skill-name">PHP</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                        <div class="skill-percentage">70%</div>
+                    </div>
+
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fab fa-css3-alt skill-icon"></i>
+                        <h3 class="skill-name">LARAVEL</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 65%"></div>
+                        </div>
+                        <div class="skill-percentage">65%</div>
+                    </div>
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fab fa-css3-alt skill-icon"></i>
+                        <h3 class="skill-name">UI/UX DESIGN</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                        <div class="skill-percentage">75%</div>
+                    </div>
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fab fa-css3-alt skill-icon"></i>
+                        <h3 class="skill-name">FIGMA</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                        <div class="skill-percentage">80%</div>
+                    </div>
+
+                    <!-- Add data-aos attributes to remaining skill cards -->
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-inner">
+                <h1 class="glitch-effect" data-aos="fade-down" data-text="CONTACT US">CONTACT US</h1>
+                <div class="social-icons">
+                    <a href="https://wa.me/085101901633" class="social-link" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="social-link" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer data-aos="fade-up">
+            <p>&copy; 2025 Ryan Maulana. All rights reserved.</p>
+        </footer>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
